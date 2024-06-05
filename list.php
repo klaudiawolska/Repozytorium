@@ -9,10 +9,10 @@
 
 <?php
 /*Database Connection*/
-$host = 'localhost';
-$username = 'root';
-$password = '';
-$database = 'dm';
+$host = 'repozytorium-server.mysql.database.azure.com';
+$username = 'ctklbnfvhc';
+$password = 'Haslo123';
+$database = 'repozytorium-database';
 Global $dbconfig; // to use globally
 $dbconfig = mysqli_connect($host,$username,$password,$database) or die("An Error occured while connecting to the database");
 ?>
